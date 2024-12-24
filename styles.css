@@ -145,3 +145,86 @@ header {
 .membership-button:hover {
   background-color: #0056b3; /* Darker shade on hover */
 }
+/* FAQ Section */
+.faq {
+  padding: 60px 20px; /* Adjust padding based on Figma */
+  background-color: #f9f9f9; /* Replace with Figma background color */
+  border-top: 1px solid #ddd; /* Optional: Add a subtle border for separation */
+}
+
+.faq h2 {
+  font-size: 30px; /* Replace with Figma font size */
+  color: #333; /* Replace with Figma text color */
+  text-align: center; /* Center the FAQ heading */
+  margin-bottom: 40px; /* Add spacing below the heading */
+}
+
+.faq-item {
+  margin-bottom: 20px; /* Add spacing between FAQ items */
+  border-bottom: 1px solid #ccc; /* Optional: Add a divider between items */
+  padding-bottom: 15px; /* Adjust padding for spacing */
+}
+
+.faq-item h3 {
+  font-size: 22px; /* Replace with Figma font size */
+  color: #007bff; /* Replace with Figma color for question headings */
+  margin-bottom: 10px; /* Add spacing below the question */
+  cursor: pointer; /* Optional: Indicate interactivity */
+}
+
+.faq-item p {
+  font-size: 16px; /* Replace with Figma font size */
+  color: #555; /* Replace with Figma text color */
+  line-height: 1.6; /* Improve text readability */
+}
+
+.faq-item a {
+  color: #007bff; /* Replace with Figma link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.faq-item a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+/* Footer Section */
+.site-footer {
+  background-color: #333; /* Replace with the Figma background color */
+  color: #fff; /* Replace with the Figma text color */
+  padding: 40px 20px; /* Adjust padding as per Figma design */
+  text-align: center; /* Center the footer content */
+}
+
+.site-footer .footer-content {
+  max-width: 1200px; /* Restrict the footer width */
+  margin: 0 auto; /* Center the content */
+}
+
+.site-footer p {
+  font-size: 14px; /* Replace with Figma font size */
+  margin-bottom: 20px; /* Add spacing below the copyright text */
+}
+
+.site-footer .social-links {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Reset padding */
+  margin: 0; /* Reset margin */
+  display: flex; /* Align links horizontally */
+  justify-content: center; /* Center the social links */
+  gap: 15px; /* Add spacing between links */
+}
+
+.site-footer .social-links li {
+  display: inline; /* Ensure the links are inline */
+}
+
+.site-footer .social-links a {
+  color: #fff; /* Replace with Figma link color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Replace with Figma font size */
+}
+
+.site-footer .social-links a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
