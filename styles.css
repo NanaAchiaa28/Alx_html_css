@@ -109,3 +109,39 @@ header {
   color: #555; /* Replace with Figma text color */
   margin-top: 10px; /* Spacing above text */
 }
+/* Membership Section */
+.membership {
+  padding: 60px 20px; /* Replace with Figma padding */
+  background-color: #e6f7ff; /* Replace with Figma background color */
+  text-align: center; /* Center-align the content */
+  border-radius: 10px; /* Optional: Rounded corners for the section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}
+
+.membership h2 {
+  font-size: 30px; /* Replace with Figma font size */
+  color: #333; /* Replace with Figma text color */
+  margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.membership p {
+  font-size: 18px; /* Replace with Figma font size */
+  color: #555; /* Replace with Figma text color */
+  margin-bottom: 30px; /* Add spacing below the paragraph */
+  line-height: 1.6; /* Improve text readability */
+}
+
+.membership-button {
+  background-color: #007bff; /* Replace with Figma button color */
+  color: #fff; /* Button text color */
+  font-size: 18px; /* Replace with Figma font size */
+  padding: 15px 30px; /* Adjust padding for button size */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Optional: Rounded corners for the button */
+  cursor: pointer; /* Show pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.membership-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
