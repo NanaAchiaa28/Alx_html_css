@@ -68,3 +68,44 @@ header {
 .banner button:hover {
   background-color: #0056b3; /* Darker shade for hover */
 }
+/* Videos Section */
+.videos {
+  padding: 50px 20px; /* Replace with Figma padding */
+  background-color: #f4f4f4; /* Replace with Figma background color */
+  text-align: center; /* Center-align the section title */
+}
+
+.videos h2 {
+  font-size: 28px; /* Replace with Figma font size */
+  color: #333; /* Replace with Figma text color */
+  margin-bottom: 30px; /* Add spacing below the title */
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap; /* Ensure videos wrap on smaller screens */
+  gap: 20px; /* Spacing between videos */
+  justify-content: center; /* Center-align the list items */
+  padding: 0; /* Remove default list padding */
+  list-style-type: none; /* Remove default bullets */
+}
+
+.video-list li {
+  flex: 1 1 calc(33.333% - 20px); /* 3 items per row with spacing */
+  max-width: 300px; /* Control max width of each video card */
+  text-align: center; /* Center-align text in each list item */
+  margin: 0 auto; /* Center items horizontally */
+}
+
+.video-list video {
+  width: 100%; /* Make videos responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.video-list p {
+  font-size: 16px; /* Replace with Figma font size */
+  color: #555; /* Replace with Figma text color */
+  margin-top: 10px; /* Spacing above text */
+}
