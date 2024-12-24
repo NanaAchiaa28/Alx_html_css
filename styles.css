@@ -1,0 +1,32 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff; /* Replace with actual color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow if needed */
+}
+
+.logo img {
+  width: 150px; /* Adjust logo size */
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Spacing between links */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000000; /* Replace with Figma text color */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px; /* Adjust based on Figma */
+  font-weight: 600;
+}
+
+.nav-links li a:hover {
+  color: #ff4500; /* Highlight color on hover */
+}
