@@ -1,0 +1,49 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Variables */
+  :root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #ffcc00;
+    --font-color: #ffffff;
+  }
+  
+  /* Hero Section */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: var(--primary-color) url('path-to-hero-image.jpg') no-repeat center center / cover;
+    color: var(--font-color);
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background: var(--secondary-color);
+    border: none;
+    color: var(--primary-color);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .hero button:hover {
+    background: #e6b800;
+  }
+  
