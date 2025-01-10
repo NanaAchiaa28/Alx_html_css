@@ -55,4 +55,4 @@ The final design ensures responsiveness on desktop and mobile devices, switching
 ---
 
 ## Folder Structure
-
+alx_html_css/ ├── headphones/ │ ├── 0-index.html # Header HTML │ ├── 0-styles.css # Header CSS │ ├── 1-index.html # "What we do..." HTML │ ├── 1-styles.css # "What we do..." CSS │ ├── 2-index.html # "Our results" HTML │ ├── 2-styles.css # "Our results" CSS │ ├── 3-index.html # Contact form HTML │ ├── 3-styles.css # Contact form CSS │ ├── 4-index.html # Footer HTML │ ├── 4-styles.css # Footer CSS │ ├── 6-index.html # Pentagon background (no image) │ ├── 6-styles.css # CSS for pentagons │ ├── 7-index.html # Animations HTML │ ├── 7-styles.css # Animations CSS ├── README.md # Project description
