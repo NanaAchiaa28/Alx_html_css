@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Our Results Section */
+.our-results {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.our-results .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.results-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.result {
+    flex: 1 1 calc(25% - 20px);
+    text-align: center;
+}
+
+.result p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Pentagon Shape */
+.pentagon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: #007BFF;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pentagon span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .results-grid {
+        flex-direction: column;
+    }
+
+    .result {
+        margin-bottom: 20px;
+    }
+}
