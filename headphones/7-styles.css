@@ -1,0 +1,29 @@
+/* General Animation Styles */
+.item {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+}
+
+/* "What we do..." Animation */
+.what-we-do .item:hover {
+    transform: scale(1.1) rotate(5deg); /* Slight zoom and rotation */
+    opacity: 0.8; /* Slight fade effect */
+}
+
+/* "Our Results" Animation */
+.our-results .item:hover {
+    animation: bounce 1s infinite; /* Bounce effect */
+}
+
+/* Bounce Keyframes */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
